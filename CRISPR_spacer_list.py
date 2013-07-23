@@ -11,11 +11,10 @@ for each in spacers:
 	lowercase = each.lower()
 	#print lowercase
 	if lowercase in infile:
-		print lowercase
-	'''
+		#print lowercase
 	answer = infile.find(each)
 	print answer
-
+'''
 	for line in infile:
 		if each in line:
 		 print each
